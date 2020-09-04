@@ -1,0 +1,95 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: lightgray;
+}
+
+h2, p, .readme-wrapper {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    color: blue;
+    font-weight: bolder;
+}
+
+span {
+    color: lime;
+    font-weight: 700;
+}
+
+.boxes {
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ff0000;
+    border-radius: 2em;
+    width: 30em;
+    position: relative;
+    /* display: inline-block; */
+}
+
+#box1 {
+    background-color: maroon;
+}
+
+#box2 {
+    background-color: mediumblue;
+    /* position: absolute;
+    bottom: 336px;
+    left: 545px; */
+}
+
+#box3 {
+    background-color: indigo;
+}
+
+#box4 {
+    background-color: lavender;
+}
+
+.image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: lawngreen;
+    position: absolute;
+    top: 20px;
+    left: 110px;
+}
+
+h1 {
+    color: lightsalmon;
+}
+
+.original {
+    color: magenta;
+}
+
+.additional {
+    color: mediumaquamarine;
+}
+
+#show1 {
+    color: mistyrose;
+}
+
+ul {
+    color: moccasin;
+}
+
+.star {
+    color: navy;
+}
+
+#wars {
+    color: rgba(255, 255, 0, 0.233);
+}
+
+.list-container {
+    border: 2px solid black;
+}
